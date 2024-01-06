@@ -1,0 +1,20 @@
+{
+  "name": "scrape-it",
+  "description": "A Node.js scraper for humans.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "scrape-it": "^6.0.1",
+    "tinyreq": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
